@@ -1,0 +1,11 @@
+services:
+  rosbot:
+    image: husarion/rosbot-xl-gazebo:humble-0.9.1-20240131
+    runtime: nvidia
+    environment:
+      - DISPLAY=${DISPLAY:?err}
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    command: ros2 launch rosbot_xl_gazebo simulation.launch.py mecanum:=True lidar_model:=slamtec_rplidar_s3
