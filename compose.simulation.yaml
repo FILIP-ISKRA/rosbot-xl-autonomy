@@ -19,6 +19,7 @@ services:
     <<: *gpu-config # or *cpu-config
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ./worlds:/worlds
     command: ${SIMULATION_COMMAND:-ros2 launch rosbot_xl_gazebo simulation.launch.py mecanum:=${MECANUM:-True}}
 
   navigation:

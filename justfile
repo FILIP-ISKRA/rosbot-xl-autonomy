@@ -73,7 +73,7 @@ start-simulation engine="gazebo": _run-as-user
     xhost +local:docker
     if [[ "{{engine}}" == "gazebo" ]]; then
         export SIMULATION_DOCKER_IMAGE="husarion/rosbot-xl-gazebo:humble-0.9.1-20240131"
-        export SIMULATION_COMMAND="ros2 launch rosbot_xl_gazebo simulation.launch.py mecanum:=${MECANUM:-True}"
+        export SIMULATION_COMMAND="ros2 launch rosbot_xl_gazebo simulation.launch.py mecanum:=${MECANUM:-True} world:=/worlds/husarion_world.sdf"
     elif [[ "{{engine}}" == "webots" ]]; then
         export SIMULATION_DOCKER_IMAGE="husarion/webots:humble-2023.0.4-20230809-stable"
         export SIMULATION_COMMAND="ros2 launch webots_ros2_husarion rosbot_xl_launch.py"

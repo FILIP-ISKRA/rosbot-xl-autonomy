@@ -8,4 +8,5 @@ services:
       - NVIDIA_DRIVER_CAPABILITIES=all
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
-    command: ros2 launch rosbot_xl_gazebo simulation.launch.py mecanum:=True lidar_model:=slamtec_rplidar_s3
+      - ./worlds:/worlds
+    command: ros2 launch rosbot_xl_gazebo simulation.launch.py mecanum:=True lidar_model:=slamtec_rplidar_s3 world:=/worlds/husarion_world.sdf
