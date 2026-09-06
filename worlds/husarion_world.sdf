@@ -47,9 +47,9 @@
         </visual>
       </link>
     </model>
-    <!--
     <model name="husarion">
       <static>true</static>
+      <!--
       <link name="link">
         <pose>13.0 16.0 0 0 0 -1.57</pose>
         <visual name="visual">
@@ -69,12 +69,12 @@
           </geometry>
         </collision>
       </link>
+      -->
       <plugin filename="ignition-gazebo-imu-system" name="gz::sim::systems::Imu">
       </plugin>
       <plugin filename="ignition-gazebo-sensors-system" name="gz::sim::systems::Sensors">
       </plugin>
     </model>
-    -->
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>
       <world_frame_orientation>ENU</world_frame_orientation>
