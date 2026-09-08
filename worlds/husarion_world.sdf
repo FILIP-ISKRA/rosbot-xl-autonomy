@@ -2,6 +2,7 @@
 
 <sdf version="1.6">
   <world name="husarion_world">
+
     <physics name="1ms" type="ignored">
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1.0</real_time_factor>
@@ -87,11 +88,8 @@
 
     <!-- CBF test pillars -->
 
-    <model name="cbf_pillar_1">
-      <static>true</static>
-      <pose>2.0 2.0 0.5 0 0 0</pose>
+    <actor name="cbf_pillar_1">
       <link name="link">
-
         <collision name="collision">
           <geometry>
             <cylinder>
@@ -100,7 +98,6 @@
             </cylinder>
           </geometry>
         </collision>
-
         <visual name="visual">
           <geometry>
             <cylinder>
@@ -113,15 +110,29 @@
             <diffuse>0.8 0.2 0.2 1</diffuse>
           </material>
         </visual>
-
       </link>
-    </model>
+      <script>
+        <loop>true</loop>
+        <auto_start>true</auto_start>
+        <trajectory id="0" type="square">
+          <waypoint>
+            <time>0.0</time>
+            <pose>2.0 1.0 0.5 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>2.5</time>
+            <pose>2.0 3.0 0.5 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>5.0</time>
+            <pose>2.0 1.0 0.5 0 0 0</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
 
-    <model name="cbf_pillar_2">
-      <static>true</static>
-      <pose>3.0 2.0 0.5 0 0 0</pose>
+    <actor name="cbf_pillar_2">
       <link name="link">
-
         <collision name="collision">
           <geometry>
             <cylinder>
@@ -130,7 +141,6 @@
             </cylinder>
           </geometry>
         </collision>
-
         <visual name="visual">
           <geometry>
             <cylinder>
@@ -143,15 +153,20 @@
             <diffuse>0.8 0.2 0.2 1</diffuse>
           </material>
         </visual>
-
       </link>
-    </model>
+      <script>
+        <loop>true</loop>
+        <auto_start>true</auto_start>
+        <trajectory id="0" type="square">
+          <waypoint><time>0.0</time><pose>3.0 1.0 0.5 0 0 0</pose></waypoint>
+          <waypoint><time>3.0</time><pose>3.0 3.0 0.5 0 0 0</pose></waypoint>
+          <waypoint><time>6.0</time><pose>3.0 1.0 0.5 0 0 0</pose></waypoint>
+        </trajectory>
+      </script>
+    </actor>
 
-    <model name="cbf_pillar_3">
-      <static>true</static>
-      <pose>4.0 2.0 0.5 0 0 0</pose>
+    <actor name="cbf_pillar_3">
       <link name="link">
-
         <collision name="collision">
           <geometry>
             <cylinder>
@@ -160,7 +175,6 @@
             </cylinder>
           </geometry>
         </collision>
-
         <visual name="visual">
           <geometry>
             <cylinder>
@@ -173,9 +187,17 @@
             <diffuse>0.8 0.2 0.2 1</diffuse>
           </material>
         </visual>
-
       </link>
-    </model>
+      <script>
+        <loop>true</loop>
+        <auto_start>true</auto_start>
+        <trajectory id="0" type="square">
+          <waypoint><time>0.0</time><pose>4.0 1.0 0.5 0 0 0</pose></waypoint>
+          <waypoint><time>1.5</time><pose>4.0 3.0 0.5 0 0 0</pose></waypoint>
+          <waypoint><time>3.0</time><pose>4.0 1.0 0.5 0 0 0</pose></waypoint>
+        </trajectory>
+      </script>
+    </actor>
   
 
     </world>
