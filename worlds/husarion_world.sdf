@@ -115,14 +115,14 @@
         <loop>true</loop>
         <auto_start>true</auto_start>
         <trajectory id="0" type="square">
-          <waypoint><time>0.0</time><pose>2.0 1.0 0.5 0 0 0</pose></waypoint>
-          <waypoint><time>10.0</time><pose>2.0 3.0 0.5 0 0 0</pose></waypoint>
-          <waypoint><time>20.0</time><pose>2.0 1.0 0.5 0 0 0</pose></waypoint>
+          <waypoint><time>0.0</time><pose>2.0 2.0 0.5 0 0 0</pose></waypoint>
+          <waypoint><time>10.0</time><pose>2.0 2.0 0.5 0 0 0</pose></waypoint>
+          <waypoint><time>20.0</time><pose>2.0 2.0 0.5 0 0 0</pose></waypoint>
         </trajectory>
       </script>
     </actor>
 
-    <actor name="cbf_pillar_2">
+    <!-- <actor name="cbf_pillar_2">
       <link name="link">
         <collision name="collision">
           <geometry>
@@ -256,7 +256,7 @@
           <waypoint><time>16.0</time><pose>6.0 1.0 0.5 0 0 0</pose></waypoint>
         </trajectory>
       </script>
-    </actor>
+    </actor> -->
     <model name="wall_1">
       <static>true</static>
       <pose>4.0 4 0.25 0 0 0</pose>
