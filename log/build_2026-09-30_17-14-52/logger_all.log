@@ -1,0 +1,1085 @@
+[0.100s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.100s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x703e00b032e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x703e00cb44f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x703e00cb44f0>>, mixin_verb=('build',))
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.189s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.190s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.190s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.190s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace/submodules/rosbot-xl-autonomy'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/meshes) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/meshes) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/AdjTable/thumbnails) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/meshes) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/BathroomSink/thumbnails) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/meshes) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/CoffeeTable/thumbnails) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/ConfTable/meshes) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/materials/textures) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/meshes) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/DeskChair/thumbnails) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Door/meshes) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/meshes) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Drawer/thumbnails) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/meshes) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Fridge/thumbnails) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Kitchen/meshes) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Laptop/meshes) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/meshes) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart2/thumbnails) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/meshes) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart3/thumbnails) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/meshes) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/MopCart4/thumbnails) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/meshes) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/OfficeChairBlack/thumbnails/meta) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/meshes) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/SquareShelf/thumbnails) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Stairs) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Table/thumbnails) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/meshes) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Toilet/thumbnails) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/meshes) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/TrashBin/thumbnails) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/Tv/meshes) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WaterDispenser/meshes) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/meshes) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WhiteCabinet/thumbnails) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/meshes) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/WoodenChair/thumbnails) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/pradnicka_office_L1/meshes) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/models/rosbot/meshes) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/nav2_maps) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.251s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.253s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.260s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.260s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.260s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.260s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.264s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.264s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/submodules/rosbot-xl-autonomy/install/local_setup.ps1'
+[0.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/submodules/rosbot-xl-autonomy/install/_local_setup_util_ps1.py'
+[0.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/submodules/rosbot-xl-autonomy/install/setup.ps1'
+[0.270s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/submodules/rosbot-xl-autonomy/install/local_setup.sh'
+[0.271s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/submodules/rosbot-xl-autonomy/install/_local_setup_util_sh.py'
+[0.271s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/submodules/rosbot-xl-autonomy/install/setup.sh'
+[0.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/submodules/rosbot-xl-autonomy/install/local_setup.bash'
+[0.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/submodules/rosbot-xl-autonomy/install/setup.bash'
+[0.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/submodules/rosbot-xl-autonomy/install/local_setup.zsh'
+[0.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/submodules/rosbot-xl-autonomy/install/setup.zsh'
