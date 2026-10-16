@@ -27,6 +27,7 @@ services:
     volumes:
       - ./config/nav2_${CONTROLLER:-rpp}_params.yaml:/params.yaml
       - ./maps:/maps
+      - ./config/navigation_launch.py:/opt/ros/humble/share/nav2_bringup/launch/navigation_launch.py
     environment:
       - SAVE_MAP_PERIOD=${SAVE_MAP_PERIOD}
     command: >

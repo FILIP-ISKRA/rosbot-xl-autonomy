@@ -29,6 +29,7 @@ services:
       rplidar: { condition: service_healthy }
       rosbot: { condition: service_healthy }
     volumes:
+      - ./config/navigation_launch.py:/opt/ros/humble/share/nav2_bringup/launch/navigation_launch.py
       - ./config/nav2_${CONTROLLER:-rpp}_params.yaml:/params.yaml
       - ./maps:/maps
     command: >
